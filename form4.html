@@ -1,0 +1,75 @@
+<html>
+<head>
+	
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="css2.css">
+	<h1><center>Order Summary</center></h1>
+</head>
+<form>
+  <label>Name:</label>
+  <input type="text" name="name"><br><br>
+
+  <label>Email:</label>
+  <input type="email" name="email"><br><br>
+
+  <label>Phone:</label>
+  <input type="tel" name="phone"><br><br>
+
+  <label>Cake Type:</label>
+  <select name="cake_type">
+    <option value="chocolate">Chocolate</option>
+    <option value="vanilla sponge">Vanilla Sponge</option>
+    <option value="red_velvet">Red Velvet</option>
+    <option value="white_forest">White Forest</option>
+    <option value="black_forest">Black Forest</option>
+    <option value="nougat">Nougat</option>
+  </select><br><br>
+
+  <label>Number of Cakes:</label>
+  <input type="number" name="number_of_cakes"><br><br>
+
+    <label for="cake-size">Cake Size:</label>
+    <input type="radio" id="1/2 kg" name="cake-size" value="1/2 kg">
+    <label for="1/2 kg">1/2 kg</label>
+    <input type="radio" id="1 kg" name="cake-size" value="1 kg">
+    <label for="1 kg">1 kg</label>
+    <input type="radio" id="1.5 kg" name="cake-size" value="1.5 kg">
+    <label for="1.5 kg">1.5 kg</label><br><br>
+
+    <label for="cake-message">Cake Message:</label>
+    <textarea id="cake-message" name="cake-message"></textarea><br><br>
+
+  <label>Cheesecake Type:</label>
+  <select name="cheesecake_type">
+    <option value="blueberry_cheesecake">Blueberry Cheesecake</option>
+    <option value="strawberry_cheesecake">Strawberry Cheesecake</option>
+    <option value="classic_newyork_cheesecake">Classic New York Cheesecake</option>
+    <option value="lemon_cheesecake">Lemon Cheesecake</option>
+    <option value="oreo_cheesecake">Oreo Cheesecake</option>
+    <option value="caramel_cheesecake">Caramel Cheesecake</option>
+  </select><br><br>
+
+  <label>Number of pieces of Cheesecakes:</label>
+  <input type="number" name="number_of_cheesecakes"><br><br>
+
+  <label>Muffins Type:</label>
+  <select name="muffin_type">
+    <option value="blueberry_muffin">Blueberry Muffins</option>
+    <option value="cashew_muffins">Cashew Muffins</option>
+    <option value="chocolate_chip_muffin">Chocolate chip Muffin</option>
+    <option value="strawberryshortcake_muffin">Strawberry Shortcake Muffins</option>
+    
+  </select><br><br>
+
+  <label>Number of packs of Muffins:</label>
+  <input type="number" name="number_of_muffins"><br><br>
+
+  <label>Delivery Date:</label>
+  <input type="date" name="delivery_date"><br><br>
+
+  <label>Delivery Time</label>
+  <input type="time" id="appt" name="appt"><br><br>
+
+  <input type="submit" value="Place Order">
+</form>
+</html>
